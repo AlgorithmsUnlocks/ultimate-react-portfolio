@@ -1,0 +1,82 @@
+/* Footer CSS*/
+.container-fluid.footer-bg {
+    background: rgb(243 104 224 / 21%);
+    padding: 50px 0;
+    background-image: url('../../assets/footer-bg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+/* Footer Middel CSS*/
+.newsletter-cols p {
+    scroll-behavior: smooth;
+    font-size: 25px;
+    transform: scaleY(1.54);
+    color: var(--color-primary);
+}
+.contact-cols ul li{
+    display: flex;
+    margin-bottom: 10px;
+}
+.contact-cols ul li i {
+    margin: 6px 6px 0 0;
+    font-size: 25px;
+    color: var(--color-primary);
+}
+ul.footer-social-links {
+    display: flex;
+    align-items: center;
+}
+ul.footer-social-links li {
+    margin: 0px 6px;
+}
+ul.footer-social-links li:first-child {
+    margin: 0 6px 0 0;
+}
+ul.footer-social-links li:last-child {
+    margin: 0 0 0 6px;
+}
+ul.footer-social-links li i{
+    font-size: 26px;
+    color: var(--color-primary);
+    cursor: pointer;
+}
+ul.footer-social-links li i:hover{
+    animation: footer-icon 2s ease 0s 1 normal forwards;
+}
+@keyframes footer-icon {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+
+	25%,
+	75% {
+		opacity: 0;
+	}
+}
+
+/* Footer Bottom */
+div#footerBottom .footerBottomContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+    div#footerBottom .footerBottomContent {
+        display: block;
+       
+    }
+}
+.footerBottomContent p i {
+    color: var(--color-primary);
+    font-size: 20px;
+}
+div#footerBottom {
+    box-shadow: rgb(149 157 165 / 10%) 0px 8px 24px;
+    padding: 10px;
+}

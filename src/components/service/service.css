@@ -1,0 +1,56 @@
+/* Service me Content*/
+.service-me-content {
+    padding: 15px 0;
+}
+.service-me-content .service-me-content-details {
+    background: white;
+    margin: 15px 0;
+    box-shadow: rgb(50 50 93 / 25%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px;
+    border-radius: 20px;
+}
+.service-me-content .service-me-content-details .service-me-inner-content h5 {
+    margin: 20px 0 15px;
+}
+.service-me-content .service-me-content-details .service-me-inner-content p {
+    padding: 0 10px 10px;
+}
+.service-content-btn-more.text-center {
+    padding: 0px 0px 20px;
+}
+.service-me-inner-content img {
+    height: 200px;
+}
+.container-fluid.service-bg {
+    padding: 50px 0;
+}
+.service-me {
+    padding: 0px 0px 45px;
+}
+.service-me .service-text {
+    padding-bottom: 20px;
+}
+.service-me-content .service-me-content-details:hover{
+    animation: service-card 3s ease 0s infinite normal forwards;
+    background: #00ffff1f;
+    border-radius: 0;
+}
+@keyframes service-card {
+	0% {
+		opacity: 1;
+	}
+
+	50% {
+		opacity: 0.2;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+
+/*Service Me Button */
+.service-me-button{
+    padding: 20px 0;
+    
+}

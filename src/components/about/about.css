@@ -1,0 +1,95 @@
+/*About CSS */
+
+.about-me-button{
+  padding: 20px 0;
+}
+.heading-title{
+    font-size: 35px;
+    font-weight: bold;
+}
+.about-me {
+    padding: 45px 0;
+}
+.about-me .about-me-text {
+    padding-bottom: 20px;
+}
+.about-me .about-me-content .about-me-content-details {
+    background: white;
+    box-shadow: 0px 5px 10px 0px rgb(0 0 0 / 10%);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin: 0px 10px 0px 10px;
+    --e-column-margin-right: 10px;
+    --e-column-margin-left: 10px;
+    padding: 10px 20px;
+    margin: 15px 0;
+}
+.about-me .about-me-content .about-me-content-details .about-icon {
+    font-size: 22px;
+    animation: about-icon 3s ease 0s 2 normal forwards;
+    background: rgb(243 104 224 / 21%);
+    border: none;
+    border-radius: 5px;
+    animation: about-icon 3s ease 0s 2 normal forwards;
+    padding: 15px;
+}
+.about-me .about-me-content .about-me-content-details:hover{
+    animation: about-contents 2s ease 0s 1 normal forwards;
+}
+@keyframes about-contents {
+	0% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+
+@keyframes about-icon {
+	0% {
+		opacity: 0;
+		transform: translateX(-250px) rotate(-200deg);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0) rotate(0deg);
+	}
+}
+
+ 
+
+.heading-title
+{
+ 
+  background-image: linear-gradient(
+    -225deg,
+    var(--color-primary) 0%,
+    var(--color-bg) 29%,
+    var(--color-heading) 67%,
+    var(--color-primary-varient) 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+ 
+  font-size: 35px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+/*Loader SVG */
+img.loader-svg-gif.text-center {
+    width: 8%;
+}
